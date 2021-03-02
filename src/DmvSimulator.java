@@ -20,7 +20,26 @@ public class DmvSimulator {
             if (currNum == custNum)
             {
                 System.out.println("Please present your papers.");
-                System.out.println("That is not the correct paper work. Get lost. muahahahahhahaaha");
+
+                int chance = rand.nextInt(101-1)+1;
+                if(chance <= 99 && chance >= 0)
+                {
+                    System.out.println("That is not the correct paper work. Get lost. muahahahahhahaaha");
+                }
+                else
+                {
+                    System.out.println("You're all set have a nice day!");
+                }
+
+                int chance = rand.nextInt(101-1)+1;
+                if(chance <= 99 && chance >= 0)
+                {
+                    System.out.println("That is not the correct paper work. Get lost. muahahahahhahaaha");
+                }
+                else
+                {
+                    System.out.println("You're all set have a nice day!");
+                }
             }
         }
         while(currNum != custNum);
