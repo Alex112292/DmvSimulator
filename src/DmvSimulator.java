@@ -12,7 +12,7 @@ public class DmvSimulator {
         int currNum = custNum;
         do {
             currNum = currNum + 1;
-            System.out.println("Number " + currNum + " please step up.");
+            System.out.println("Number: " + currNum + " please step up.");
             if(currNum == upper - 1)
             {
                 currNum = lower - 1;
