@@ -21,7 +21,7 @@ public class DmvSimulator {
                 int chance = rand.nextInt(101-1)+1;
                 if(chance <= 99 && chance >= 0)
                 {
-                    System.out.println("Sorry that is not the correct paper work please go get a new number.");
+                    System.out.println("That is not the correct paper work. Get lost. muahahahahhahaaha");
                 }
                 else
                 {
