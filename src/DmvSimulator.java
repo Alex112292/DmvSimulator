@@ -22,6 +22,5 @@ public class DmvSimulator {
             }
         }
         while(currNum != custNum);
-
     }
 }
